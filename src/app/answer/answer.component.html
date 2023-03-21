@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="left">
+        <h2>Zwierzę</h2>
+        <p *ngFor="let item of zwierze" [ngStyle]="{'color': item.correct==1 ? 'green' : 'red'}">{{item.name}}</p>
+    </div> 
+    <div class="right">
+        <h2>Roślina</h2>
+        <p *ngFor="let item of roslina" [ngStyle]="{'color': item.correct==1 ? 'green' : 'red'}">{{item.name}}</p>
+    </div>
+</div>

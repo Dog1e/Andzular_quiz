@@ -1,0 +1,9 @@
+<main>
+    <div class="up">
+        <p [ngStyle]="{'display':lockButtons==true ? 'none' : ''}">{{quizObject}}</p>
+    </div>
+    <div class="down">
+        <input type="button" class="przycisk" value="Zwierze" (click)="zwierzeCheck()" [ngStyle]="{'display':lockButtons==true ? 'none' : ''}">
+        <input type="button" class="przycisk" value="Roslina" (click)="roslinaCheck()" [ngStyle]="{'display':lockButtons==true ? 'none' : ''}">
+    </div>
+</main>

@@ -1,0 +1,23 @@
+.przycisk{
+    width: 100px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.up{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.down{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+}
